@@ -9,7 +9,7 @@ __pycache__/
 *.pyo
 
 # Data files (add your CSVs here later)
-data/*.csv
+IMDB Dataset.csv
 
 # IDE
 .vscode/settings.json
