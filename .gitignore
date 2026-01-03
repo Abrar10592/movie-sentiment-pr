@@ -1,0 +1,15 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+
+# Data files (add your CSVs here later)
+data/*.csv
+
+# IDE
+.vscode/settings.json
