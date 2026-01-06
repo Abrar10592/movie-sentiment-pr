@@ -1,0 +1,29 @@
+Train: 35000, Val: 7500, Test: 7500
+
+Validation performance:
+Accuracy : 0.8870666666666667
+Precision: 0.8818731912654565
+Recall   : 0.8938666666666667
+F1-score : 0.8878294265660177
+
+Test performance:
+Accuracy : 0.8962666666666667
+Precision: 0.8902310924369747
+Recall   : 0.904
+F1-score : 0.8970627150039693
+
+Classification report (test):
+              precision    recall  f1-score   support
+
+    negative       0.90      0.89      0.90      3750
+    positive       0.89      0.90      0.90      3750
+
+    accuracy                           0.90      7500
+   macro avg       0.90      0.90      0.90      7500
+weighted avg       0.90      0.90      0.90      7500
+
+
+Confusion matrix (rows=true, cols=pred):
+               pred_negative  pred_positive
+true_negative           3332            418
+true_positive            360           3390
